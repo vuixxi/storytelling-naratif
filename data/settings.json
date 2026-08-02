@@ -1,0 +1,26 @@
+{
+  "title": "SYSTEM.EXE",
+  "version": "1.0.0",
+  "language": "id",
+  "theme": "terminal",
+  "startScene": "opening",
+  "typing": {
+    "speed": 35,
+    "delay": 500,
+    "skip": true
+  },
+  "audio": {
+    "enabled": true,
+    "typing": true,
+    "bgm": true,
+    "volume": 0.5
+  },
+  "animation": {
+    "enabled": true,
+    "duration": 500
+  },
+  "ui": {
+    "showProgress": true,
+    "fullscreen": false
+  }
+}

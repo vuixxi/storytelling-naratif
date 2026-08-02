@@ -1,0 +1,49 @@
+{
+  
+  "id": "checkpoint-beginning",
+  "title": "HEART STATUS",
+  "type": "analysis",
+
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+
+  "typing": {
+    "enabled": false,
+    "speed": 50,
+    "delay": 2000
+  },
+
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+
+  "items": [
+    {
+      "label": "Rasa Penasaran",
+      "value": 80
+    },
+    {
+      "label": "Kenyamanan",
+      "value": 40
+    },
+    {
+      "label": "Perhatian",
+      "value": 30
+    },
+    {
+      "label": "Keberanian",
+      "value": 10
+    },
+    {
+      "label": "Harapan",
+      "value": 20
+    },
+    {
+      "label": "Keyakinan",
+      "value": 10
+    }
+  ]
+}
