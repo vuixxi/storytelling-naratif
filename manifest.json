@@ -1,0 +1,47 @@
+{
+  "title": "ICA IS MY LOVE",
+  "version": "1.0.0",
+  "story": "love",
+  "stories": {
+    "love": [
+      "please-wait",
+      "opening",
+      "hello",
+      
+      "the-ordinary-days",
+      "without-realizing",
+      "the-little-things",
+      "checkpoint-beginning",
+      
+      
+      "the-moments-i-kept",
+      "when-i-started-to-care",
+      "the-things-i-never-said",
+      "when-things-changed",
+      "checkpoint-feelings",
+      
+      
+      "the-fear",
+      "the-distance",
+      "the-nights-i-couldnt-sleep",
+      "the-unsaid-words",
+      "checkpoint-fear",
+      
+      
+      "if-one-day",
+      "the-truth",
+      "why-im-telling-you",
+      "confession",
+      "checkpoint-confession",
+      
+      
+      "no-pressure",
+      "no-matter-what-happens",
+      "thank-you",
+      "checkpoint-ending",
+      
+      
+      "ending"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #07090d;
+    --surface: rgba(16, 20, 28, 0.88);
+    --surface-light: rgba(24, 30, 42, 0.95);
+    --border: rgba(255,255,255,.08);
+    --text: #edf2f7;
+    --muted: #8b949e;
+    --accent: #58f79d;
+    --accent2: #5cc8ff;
+    --shadow: rgba(0,0,0,.55);
+}
+
+html {
+  user-select: none;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    background: radial-gradient(circle at top, #152235 0%, transparent 45%), radial-gradient(circle at bottom right, #0c281f 0%, transparent 35%), var(--bg);
+    color: var(--text);
+    font-family: "JetBrains Mono", "Fira Code", Consolas, monospace;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.scene {
+    width: min(760px, 95%);
+    padding: 38px;
+    background: var(--surface);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: 0 20px 60px var(--shadow), inset 0 1px rgba(255,255,255,.04);
+    position: relative;
+    overflow: hidden;
+}
+
+/* garis neon tipis di atas */
+.scene::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto auto 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+}
+
+.scene h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.scene h2::before {
+    content: "❯";
+    color: var(--accent);
+}
+
+.content {
+    min-height: 170px;
+    margin: 24px 0 36px;
+    padding: 20px;
+    background: rgba(255,255,255,.02);
+    border: 1px solid rgba(255,255,255,.05);
+    border-radius: 12px;
+    line-height: 1.8;
+    overflow-y: auto;
+    color: var(--text);
+}
+
+.content p {
+    margin: 14px 0;
+}
+
+.content p::before {
+    content: "> ";
+    color: var(--accent);
+}
+
+button {
+    padding: 13px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(88,247,157,.35);
+    background: linear-gradient(180deg, #18222d, #10161d);
+    color: var(--accent);
+    font-family: inherit;
+    font-size: .95rem;
+    cursor: pointer;
+    transition: .25s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    box-shadow: 0 0 18px rgba(88,247,157,.18);
+}
+
+button:active {
+    transform: scale(0.97);
+}
+
+button:disabled {
+    /* opacity: .35; */
+    opacity: 0;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+.matrix-bg {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 4rem;
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    opacity: 0.15;
+    z-index: -9;
+}
+.matrix-column {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    font-size: 13px; 
+    line-height: 1.5;
+    /* color: rgba(255, 51, 153, 0.45); */
+    color: var(--accent);
+}
+.matrix-move {
+    animation: scrollDown 120s linear infinite;
+}
+.matrix-column:nth-child(even) .matrix-move {
+    animation: scrollDown 107s linear infinite;
+}
+
+@keyframes scrollDown {
+  0% { transform: translateY(-50%); }
+  100% { transform: translateY(0%); }
+}
