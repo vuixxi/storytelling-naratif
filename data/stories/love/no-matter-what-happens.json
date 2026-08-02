@@ -1,0 +1,32 @@
+{
+  
+  "id": "no-matter-what-happens",
+  "title": "NO MATTER WHAT HAPPENS",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Apa pun yang terjadi setelah ini.",
+    "Aku akan tetap menghormati {{recipient}}.",
+    "Aku akan tetap mendoakan yang terbaik buat {{recipient}}.",
+    "Kalau nanti kita tidak berjalan di jalan yang sama.",
+    "Aku tetap bersyukur pernah mengenal {{recipient}}.",
+    "Karena kehadiran {{recipient}} sudah membawa banyak arti dalam hidupku."
+  ]
+  
+}

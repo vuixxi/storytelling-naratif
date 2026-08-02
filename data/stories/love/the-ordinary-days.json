@@ -1,0 +1,33 @@
+{
+  
+  "id": "the-ordinary-days",
+  "title": "THE ORDINARY DAYS",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Awalnya...",
+    "Semua terasa biasa aja.",
+    "Kita ngobrol.",
+    "Bercanda.",
+    "Tidak ada yang terlihat berbeda.",
+    "Setidaknya...",
+    "Itu yang sekarang aku pikirkan."
+  ]
+  
+}

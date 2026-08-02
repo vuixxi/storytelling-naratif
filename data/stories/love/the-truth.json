@@ -1,0 +1,35 @@
+{
+  
+  "id": "the-truth",
+  "title": "THE TRUTH",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Kalau dipikir pikir...",
+    "Alasannya sederhana.",
+    "Aku menyukai {{recipient}}...",
+    "Bukan karena {{recipient}} sempurna.",
+    "Tapi...",
+    "Karena menjadi diri {{recipient}} sendiri saja sudah cukup membuat hatiku tenang.",
+    "Aku selalu merasa nyaman saat bersama {{recipient}}.",
+    "Dan itu...",
+    "Hal yang tidak pernah bisa aku bohongi."
+  ]
+  
+}

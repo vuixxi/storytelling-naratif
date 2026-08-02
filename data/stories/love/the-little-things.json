@@ -1,0 +1,33 @@
+{
+  
+  "id": "the-little-things",
+  "title": "THE LITTLE THINGS",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Hal hal kecil tentang {{recipient}} mulai terasa istimewa.",
+    "Cara {{recipient}} nyapa.",
+    "Cara {{recipient}} ketawa.",
+    "Cara {{recipient}} bercerita.",
+    "Mungkin buat {{recipient}} itu biasa aja.",
+    "Tapi buatku...",
+    "Semua itu selalu berhasil membuat hari terasa lebih baik."
+  ]
+  
+}

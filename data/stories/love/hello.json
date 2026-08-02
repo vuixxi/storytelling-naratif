@@ -1,0 +1,31 @@
+{
+  
+  "id": "hello",
+  "title": "HELLO",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Hai, {{recipient}}.",
+    "Aku bikin sesuatu.",
+    "Tenang, ga panjang kok.",
+    "Cuman sekitar lima menit.",
+    "Lets go >_<"
+  ]
+  
+}

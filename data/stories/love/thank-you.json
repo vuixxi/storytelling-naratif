@@ -1,0 +1,33 @@
+{
+  
+  "id": "thank-you",
+  "title": "THANK YOU",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Terima kasih.",
+    "Karena tanpa sadar...",
+    "{{recipient}} sudah menjadi bagian yang sangat berarti dalam hidupku.",
+    "Terima kasih untuk setiap senyum.",
+    "Setiap cerita.",
+    "Setiap kebersamaan.",
+    "Dan semua kenangan yang akan selalu kusimpan."
+  ]
+  
+}

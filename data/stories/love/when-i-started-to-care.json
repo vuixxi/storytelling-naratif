@@ -1,0 +1,33 @@
+{
+  
+  "id": "when-i-started-to-care",
+  "title": "WHEN I STARTED TO CARE",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Pelan pelan rasa itu mulai berubah.",
+    "Aku mulai peduli.",
+    "Saat {{recipient}} senang.",
+    "Saat {{recipient}} sedih.",
+    "Dan...",
+    "Saat bersama {{recipient}}...",
+    "Tanpa terasa, kebahagiaan {{recipient}} menjadi sesuatu yang penting buatku."
+  ]
+  
+}

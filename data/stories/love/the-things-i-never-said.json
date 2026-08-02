@@ -1,0 +1,35 @@
+{
+  
+  "id": "the-things-i-never-said",
+  "title": "THE THINGS I NEVER SAID",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Sebenarnya...",
+    "Ada banyak hal yang ingin aku sampaikan.",
+    "Tapi...",
+    "Setiap kali ada kesempatan.",
+    "Aku selalu memilih diam.",
+    "Aku takut salah.",
+    "Aku takut membuat semuanya berubah.",
+    "Dan yang paling kutakutkan adalah...",
+    "{{recipient}} menjauh dariku."
+  ]
+  
+}

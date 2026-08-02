@@ -1,0 +1,31 @@
+{
+  
+  "id": "if-one-day",
+  "title": "IF ONE DAY",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Aku pernah membayangkan banyak kemungkinan.",
+    "Mungkin suatu hari nanti kita akan berjalan di arah yang berbeda.",
+    "Mungkin {{recipient}} akan menemukan seseorang yang lebih pantas.",
+    "Kalau memang itu akhirnya.",
+    "Aku hanya ingin {{recipient}} benar benar bahagia."
+  ]
+  
+}

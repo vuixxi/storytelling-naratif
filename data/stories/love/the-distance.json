@@ -1,0 +1,31 @@
+{
+  
+  "id": "the-distance",
+  "title": "THE DISTANCE",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Kadang jarak bukan soal tempat.",
+    "Kita bisa saling dekat.",
+    "Tapi tetap ada batas yang tidak pernah kulewati.",
+    "Masih banyak kata yang hanya kusimpan.",
+    "Dan setiap kali aku memilih diam, rasanya semakin berat."
+  ]
+  
+}

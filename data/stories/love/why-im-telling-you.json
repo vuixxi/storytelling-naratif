@@ -1,0 +1,32 @@
+{
+  
+  "id": "why-im-telling-you",
+  "title": "WHY IM TELLING YOU",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Aku tidak menulis semua ini supaya {{recipient}} merasa harus membalas perasaanku.",
+    "Aku juga tidak ingin membuat {{recipient}} merasa tidak enak.",
+    "Aku hanya lelah terus menyimpan semuanya sendirian.",
+    "Setidaknya...",
+    "Setelah hari ini...",
+    "{{recipient}} tahu apa yang sebenarnya kurasakan."
+  ]
+  
+}

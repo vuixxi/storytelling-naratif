@@ -1,0 +1,32 @@
+{
+  
+  "id": "no-pressure",
+  "title": "NO PRESSURE",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Aku tidak meminta jawaban itu.",
+    "Aku juga tidak ingin memaksa {{recipient}}.",
+    "Kalau ternyata perasaan {{recipient}} berbeda...",
+    "Gapapa.",
+    "Aku akan menghargai apa pun keputusan {{recipient}}.",
+    "Karena perasaan memang tidak bisa dipaksa."
+  ]
+  
+}

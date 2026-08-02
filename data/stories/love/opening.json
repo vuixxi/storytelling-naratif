@@ -1,0 +1,30 @@
+{
+  
+  "id": "opening",
+  "title": "OPENING",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Sebelum mulai...",
+    "Ada sesuatu yang ingin aku tunjukkan.",
+    "Semoga {{recipient}} melihatnya sampai selesai :).",
+    "Kalo udah siap, klik Continue."
+  ]
+  
+}

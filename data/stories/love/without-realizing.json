@@ -1,0 +1,33 @@
+{
+  
+  "id": "without-realizing",
+  "title": "WITHOUT REALIZING",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Entah sejak kapan semuanya berubah.",
+    "Aku juga tidak ingat kapan tepatnya.",
+    "Tiba tiba...",
+    "Aku mulai nunggu kabar dari {{recipient}}.",
+    "Mencari alasan supaya obrolan kita ga cepat selesai.",
+    "Dan tanpa sadar...",
+    "{{recipient}} mulai memenuhi pikiranku."
+  ]
+  
+}

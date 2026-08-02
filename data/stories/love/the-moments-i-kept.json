@@ -1,0 +1,33 @@
+{
+  
+  "id": "the-moments-i-kept",
+  "title": "THE MOMENTS I KEPT",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Ada banyak momen yang masih aku inget.",
+    "Seperti...",
+    "Obrolan sederhana.",
+    "Candaan yang mungkin sudah {{recipient}} lupakan.",
+    "Curhatan singkat.",
+    "Hal hal kecil yang mungkin ga berarti buat {{recipient}}.",
+    "Tapi semuanya masih ku inget sampai sekarang."
+  ]
+  
+}

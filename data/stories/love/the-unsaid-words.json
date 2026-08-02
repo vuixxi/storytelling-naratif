@@ -1,0 +1,36 @@
+{
+  
+  "id": "the-unsaid-words",
+  "title": "THE UNSAID WORDS",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Perasaan ini terus tumbuh.",
+    "Perlahan.",
+    "Perlahan...",
+    "Dan sangat perlahan...",
+    "Dan ga pernah berhenti.",
+    "Aku ingin jujur.",
+    "Namun...",
+    "Aku juga takut.",
+    "Takut setelah semuanya terucap...",
+    "Kita tidak akan lagi seperti sekarang."
+  ]
+  
+}

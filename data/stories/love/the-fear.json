@@ -1,0 +1,32 @@
+{
+  
+  "id": "the-fear",
+  "title": "THE FEAR",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Yang paling kutakutkan...",
+    "Bukan penolakan.",
+    "Melainkan kehilangan {{recipient}}.",
+    "Padahal aku sadar.",
+    "Aku bahkan belum pernah benar benar memiliki {{recipient}}.",
+    "Tapi rasa takut itu tetap terasa nyata."
+  ]
+  
+}

@@ -1,6 +1,6 @@
 {
   
-  "id": "checkpoint-beginning",
+  "id": "checkpoint-confession",
   "title": "HEART STATUS",
   "type": "analysis",
 
@@ -23,27 +23,27 @@
   "items": [
     {
       "label": "Rasa Penasaran",
-      "value": 80
+      "value": 100
     },
     {
       "label": "Kenyamanan",
-      "value": 40
+      "value": 100
     },
     {
       "label": "Perhatian",
-      "value": 30
+      "value": 100
     },
     {
       "label": "Keberanian",
-      "value": 10
+      "value": 100
     },
     {
       "label": "Harapan",
-      "value": 20
+      "value": 100
     },
     {
       "label": "Keyakinan",
-      "value": 10
+      "value": 80
     }
   ]
 }

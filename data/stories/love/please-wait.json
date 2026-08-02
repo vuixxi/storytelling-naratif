@@ -1,0 +1,30 @@
+{
+  
+  "id": "please-wait",
+  "title": "PLEASE WAIT",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 100,
+    "delay": 2000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Initializing...",
+    "Loading modules...",
+    "Preparing memories...",
+    "Done."
+  ]
+  
+}

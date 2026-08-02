@@ -1,0 +1,34 @@
+{
+  
+  "id": "ending",
+  "title": "ENDING",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Replay",
+    "action": "restart"
+  },
+  
+  "content": [
+    "Mungkin setelah ini tidak ada yang berubah.",
+    "Mungkin juga semuanya akan berbeda.",
+    "Aku benar benar tidak tahu.",
+    "Yang aku tahu...",
+    "Hari ini...",
+    "Akhirnya {{recipient}} mengetahui isi hatiku.",
+    "Dan apa pun akhirnya nanti.",
+    "Aku tidak akan pernah menyesal pernah menyayangi {{recipient}} sedalam ini."
+  ]
+  
+}

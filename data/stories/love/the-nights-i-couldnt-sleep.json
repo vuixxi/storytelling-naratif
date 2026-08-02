@@ -1,0 +1,31 @@
+{
+  
+  "id": "the-nights-i-couldnt-sleep",
+  "title": "THE NIGHTS I COULDNT SLEEP",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Ada malam malam ketika aku sulit memejamkan mata.",
+    "Pikiranku selalu kembali ke arah yang sama.",
+    "Tentang {{recipient}}.",
+    "Tentang kemungkinan yang terus kubayangkan.",
+    "Tentang harapan yang bahkan belum sempat kuucapkan."
+  ]
+  
+}

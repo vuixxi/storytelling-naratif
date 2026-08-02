@@ -1,0 +1,33 @@
+{
+  
+  "id": "confession",
+  "title": "CONFESSION",
+  "type": "dialog",
+  
+  "animation": {
+    "enter": "fade",
+    "exit": "fade"
+  },
+  
+  "typing": {
+    "enabled": true,
+    "speed": 50,
+    "delay": 1000
+  },
+  
+  "button": {
+    "text": "Continue",
+    "action": "next"
+  },
+  
+  "content": [
+    "Jadi...",
+    "Iya.",
+    "Aku suka sama {{recipient}}.",
+    "Perasaan ini sudah lama ada.",
+    "Dan hari ini aku memilih jujur.",
+    "Bukan karena aku tiba tiba menjadi lebih berani.",
+    "Tapi karena aku sudah tidak sanggup terus berpura pura kalau semua ini biasa saja."
+  ]
+  
+}
